@@ -18,7 +18,7 @@ function App() {
     setResult(null)
 
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const response = await fetch('https://my-sales-api-lmkp.onrender.com/predict', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
